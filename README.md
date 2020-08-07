@@ -29,6 +29,14 @@ new react  login app using Oauth
 
 // AuthUser.js
 
+    window.location.search.match()
+    window.location.search.replace()
+
+做 button 此按鈕按下後，會將使用者轉址到到 Github Oauth 程序，等待授權完成後，
+Github Oauth 會將 code 代碼回傳給瀏覽器展示在 window 視窗前：http://localhost:3000?code=xxxxxxxxx
+如果查詢字串裡面有代碼 code，此視窗會將位址解析出來。並且使用 alert() 警示出來。
+最後使用 history 特性移除他。（由 React router 送給此元件的，故使用 Props.history）
+
         // 2020, 8/07
 
         import React from 'react';
