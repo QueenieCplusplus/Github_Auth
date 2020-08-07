@@ -1,4 +1,4 @@
-// 2020, AM 9:30-10:30 (1 hr)
+// 2020, AM 9:30-10:00 (0.5 hr)
 
 import React from 'react';
 import './App.css';
