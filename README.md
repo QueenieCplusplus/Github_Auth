@@ -4,6 +4,11 @@ new react  login app using Oauth
 備註： 還要做 Mutation, 待今晚...
 
 
+// Demo
+
+![oauth](https://raw.githubusercontent.com/QueenieCplusplus/Github_Auth/master/demo%202.png)
+
+
 // App.js
 
     import React from 'react';
