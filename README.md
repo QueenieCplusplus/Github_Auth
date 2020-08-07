@@ -1,6 +1,8 @@
 # Github_Auth
 new react  login app using Oauth
 
+備註： 還要做 Mutation, 待今晚...
+
 
 // App.js
 
