@@ -1,7 +1,9 @@
-// 2020, 8/07
+// 2020, 8/07 9:20-10:30
 
 import React from 'react';
 import { withRouter } from 'react-router-dom';
+import { Mutation } from 'react-apollo';
+import { gql } from 'apollo-boost';
 
 // 另外code file 待做 Mutation 使用 react-apollo 的 {Mutation} 
 // 和使用 apollo-boost 的 { gql }
