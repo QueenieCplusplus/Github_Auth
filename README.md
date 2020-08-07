@@ -37,7 +37,7 @@ Github Oauth 會將 code 代碼回傳給瀏覽器展示在 window 視窗前：ht
 如果查詢字串裡面有代碼 code，此視窗會將位址解析出來。並且使用 alert() 警示出來。
 最後使用 history 特性移除他。（由 React router 送給此元件的，故使用 Props.history）
 
-另外，此代碼其實不是做來警示 User 得，而是要將 code 送回給 GithubAuth 做 Mutation，請詳後端。
+另外，此代碼其實不是做來警示 User 得，而是要將 code 送回給 GithubAuth 做 Mutation，待續....。
 
         // 2020, 8/07
 
