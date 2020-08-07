@@ -41,15 +41,20 @@ class AuthUser extends React.Component{
 
         return(
 
-            <button onClick= {this.reqCode} disabled = {this.state.signIn}>
+            <div>
+                <br/>
+                <br/>
+                <br/>
+                <button onClick= {this.reqCode} disabled = {this.state.signIn}>
 
-                Sign In With Github Auth
+                    Sign In With Github Auth
 
-            </button>
+                </button>
+                <br/>
 
+            </div>
         )
     }
-
 }
 
 export default withRouter(AuthUser);

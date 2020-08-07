@@ -7,21 +7,21 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import ApolloClient from 'apollo-client';
 
-const ac = new ApolloClient({
+// const ac = new ApolloClient({
 
-  uri: "http://localhost:4000/graphgql",
-  req: ops => {
-    ops.setContext(context => {
+//   uri: "http://localhost:4000/graphgql",
+//   req: ops => {
+//     ops.setContext(context => {
 
-        headers:{
-        //...
-        authorization: localStorage.getItem('token')
-      }
+//         headers:{
+//         //...
+//         authorization: localStorage.getItem('token')
+//       }
 
-    })
-  }
+//     })
+//   }
 
-})
+// })
 
 ReactDOM.render(
   <React.StrictMode>
