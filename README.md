@@ -197,3 +197,7 @@ Github Oauth 會將 code 代碼回傳給瀏覽器展示在 window 視窗前：ht
         }
 
         export default withRouter(AuthUser);
+
+# { withRouter }
+
+https://github.com/QueenieCplusplus/React_withRouter/blob/master/README.md
