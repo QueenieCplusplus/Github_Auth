@@ -7,21 +7,24 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import ApolloClient from 'apollo-client';
 
-// const ac = new ApolloClient({
+const client = new ApolloClient({
 
-//   uri: "http://localhost:4000/graphgql",
-//   req: ops => {
-//     ops.setContext(context => {
+  uri: "http://localhost:4000/graphgql",
+  req: ops => {
+    ops.setContext(context => ({
 
-//         headers:{
-//         //...
-//         authorization: localStorage.getItem('token')
-//       }
+        headers:{
+          // 識別使用者 to identify wether user is member or not
+          // 將權杖 token 加入到每一個請求的標頭[授權]
+          // 確保瀏覽器中的 localStorage 儲存的每一個權杖，
+          // 和每一個送往 GQL 服務的請求一起被送出。
+          authorization: localStorage.getItem('token')
+      }
 
-//     })
-//   }
+    }))
+  }
 
-// })
+})
 
 ReactDOM.render(
   <React.StrictMode>

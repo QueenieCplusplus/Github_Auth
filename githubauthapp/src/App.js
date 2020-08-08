@@ -8,6 +8,8 @@ import { BrowserRouter } from 'react-router-dom'; // 使用此Router將其他元
 import AuthUser from './AuthUser' //(等待建立)
 //import User from './User' //(等待建立)
 
+// {ROOT_QUERY} 根本的請求內文，等待建立
+
 function App() {
 
   return (
