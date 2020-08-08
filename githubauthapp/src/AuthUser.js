@@ -1,4 +1,5 @@
-// 2020, 8/07 9:20-10:30
+// 2020, 8/07 9:20-10:30  step(0)
+// 2020, 8/08 10:30-11:30 step(1)~(5)
 
 import React from 'react';
 import { withRouter } from 'react-router-dom';
