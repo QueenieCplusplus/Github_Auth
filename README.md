@@ -8,6 +8,10 @@ new react  login app using Oauth
 
 ![oauth](https://raw.githubusercontent.com/QueenieCplusplus/Github_Auth/master/demo%202.png)
 
+// localStorage
+
+![cache | data](https://raw.githubusercontent.com/QueenieCplusplus/Github_Auth/master/application_localStorage.png)
+
 
 // App.js
 
